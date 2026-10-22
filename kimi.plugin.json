@@ -1,0 +1,26 @@
+{
+  "name": "spacefast",
+  "version": "1.0.0",
+  "description": "Publish to the web from Kimi Code. Build, host, and share sites and apps at live URLs via the Spacefast MCP server.",
+  "keywords": ["publishing", "hosting", "deploy", "websites", "mcp"],
+  "author": "Spacefast",
+  "homepage": "https://spacefast.com",
+  "license": "MIT",
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "sessionStart": {
+    "skill": "using-spacefast"
+  },
+  "mcpServers": {
+    "spacefast": {
+      "url": "https://mcp.spacefast.com"
+    }
+  },
+  "interface": {
+    "displayName": "Spacefast",
+    "shortDescription": "Publish sites and apps to live URLs",
+    "longDescription": "Spacefast lets Kimi Code publish what it builds. Ask for a landing page, small app, or docs site and get back a live *.space.fast URL. Spaces include a built-in database, versions, sharing, and custom domains. Sign-in uses OAuth, no API keys.",
+    "developerName": "Spacefast",
+    "websiteURL": "https://spacefast.com"
+  }
+}
